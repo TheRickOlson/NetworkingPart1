@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T04:46:54.845Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" version="21.3.3" etag="3WmS1qhca86xMaAaeDuV" type="github">
-  <diagram name="Page-1" id="y0zN7xbr3W95R65Llhbx">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-05-24T04:53:51.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="2qMmGoaK-O5Yy09a_qYj" version="21.3.3" type="github">
+  <diagram name="Basic Layout" id="y0zN7xbr3W95R65Llhbx">
+    <mxGraphModel dx="1331" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3rtCADTd5o5DpOgrq9hf-1" value="SUBNET-VMS&lt;br&gt;10.10.10.0/24" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_network;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="230" width="51" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3rtCADTd5o5DpOgrq9hf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3rtCADTd5o5DpOgrq9hf-2" target="3rtCADTd5o5DpOgrq9hf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rtCADTd5o5DpOgrq9hf-2" value="VM1&lt;br&gt;10.10.10.5" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3rtCADTd5o5DpOgrq9hf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3rtCADTd5o5DpOgrq9hf-3" target="3rtCADTd5o5DpOgrq9hf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rtCADTd5o5DpOgrq9hf-3" value="SERVER01&lt;br&gt;10.10.10.10" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+          <mxGeometry x="200" y="360" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3rtCADTd5o5DpOgrq9hf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3rtCADTd5o5DpOgrq9hf-4" target="3rtCADTd5o5DpOgrq9hf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3rtCADTd5o5DpOgrq9hf-4" value="VNET-TEST&lt;br&gt;10.10.0.0/16" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+          <mxGeometry x="125.88" y="100" width="117.25" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
