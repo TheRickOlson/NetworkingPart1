@@ -5,6 +5,7 @@
 // - Two Public IPs
 // - One NSG 
 
+// To use this file you must have all the components to build and deploy bicep files to Azure.  Then run:
 // New-AzResourceGroupDeployment -Name "deploy" -ResourceGroup "RSG" -TemplateFile ./environment.bicep
 param location string = 'westus2'
 param clientName string = 'vm1'
